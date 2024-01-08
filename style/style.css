@@ -49,7 +49,7 @@ header .header-title .new-year-party {
 
 /* mine part style */
 
-.hot-deal {
+main .hot-deal {
   width: 60%;
   margin: 60px auto;
   display: flex;
@@ -58,30 +58,84 @@ header .header-title .new-year-party {
   align-items: center;
 }
 
-.hot-deal .off-offer {
+main .hot-deal .off-offer {
   color: #f00;
   font-size: 80px;
   font-weight: bold;
 }
 
-.hot-deal .offer-title {
+main .hot-deal .offer-title {
   margin: 30px 0px;
-
 }
 
-.hot-deal .offer-title .holiday-deal {
+main .hot-deal .offer-title .holiday-deal {
   padding: 10px;
   color: #f00;
   font-size: 24px;
   font-weight: 500;
 }
 
-.hot-deal .offer-title .categories {
+main .hot-deal .offer-title .categories {
   font-size: 48px;
   color: #070211;
 }
 
-.hot-deal .offer-image{
-    width: 100%;
-    height: 100%;
+main .hot-deal .offer-image {
+  position: center;
+  width: 100%;
+  height: 100%;
+}
+
+main .hot-party {
+  width: 85%;
+  height: 500px;
+  background-image: url(../resources/Vectorrr.png);
+  background-size: 100% 550px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main .hot-party .welcome-party-about {
+  margin: 100px;
+  width: 500px;
+}
+
+main .hot-party .welcome-party-title {
+  width: 610px;
+  color: #fff;
+  font-size: 50px;
+  font-weight: 900;
+  letter-spacing: 7.04px;
+}
+
+main .hot-party .welcome-party-des {
+  width: 580px;
+  padding: 30px 0;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+main .hot-party .party-year {
+  margin-right: 50px;
+  padding: 20px;
+}
+
+main .hot-party .party-year img {
+  width: 300px;
+  height: 400px;
+}
+
+main .hot-party .welcome-party-about .join-btn {
+  color: #fff;
+  background: none;
+  border: none;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-left: 40px;
 }
